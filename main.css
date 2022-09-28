@@ -1,0 +1,255 @@
+/* Background img */
+
+body {
+    background: url(/Media/BG_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+}
+
+/*  Center Property */
+
+.flex {
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+/* Header=: navigation bar */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+
+.img img {
+    height: 120px;
+    margin: 10px;
+}
+
+/* navbar */
+
+.navbar ul {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    justify-items: center;
+}
+
+.navbar ul li {
+    margin: 2px;
+    list-style: none;
+
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    margin: 3px;
+}
+
+.navbar ul a:hover {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+}
+
+/* main */
+
+/* section1 */
+
+#space-1 {
+    position: relative;
+    top: 40px;
+}
+
+#space-2 {
+    position: relative;
+    top: 165px;
+}
+
+button {
+    position: relative;
+    top: 40px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.btn {
+    height: 15px;
+}
+
+button:hover {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+}
+
+#space-3 {
+    position: relative;
+    top: 350px;
+}
+
+.pots {
+    display: block;
+    margin: 50px auto;
+    position: relative;
+    top: 50px;
+    border: 2px solid white;
+    padding: 60px;
+    border-radius: 40px;
+}
+
+h3 .flex {
+    position: relative;
+    bottom: 10px;
+    margin: 5px;
+}
+
+#pot1 {
+    height: 150px;
+}
+
+#pot2 {
+    height: 150px;
+}
+
+#pot3 {
+    height: 150px;
+}
+
+.btn1 {
+    height: 10px;
+}
+
+.btn1 button {
+    position: relative;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.btn1 button:hover {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    top: 500px;
+}
+
+footer .flex {
+    position: relative;
+    bottom: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin: auto auto;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    body {
+        font-size: 17px;
+    }
+
+    .img img {
+        height: 90px;
+        margin: 0px;
+    }
+
+    .pots {
+        height: 500px;
+        padding: 25px 5px;
+    }
+}
+
+
+@media screen and (max-width: 502px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 13px;
+    }
+
+    .pots {
+        height: 410px;
+        padding: 25px 5px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    body {
+        font-size: 13px;
+    }
+
+    .navbar ul li {
+        font-size: 12px;
+
+    }
+
+    .pots {
+        height: 455px;
+        padding: 25px 5px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    body {
+        font-size: 13px;
+    }
+
+    .navbar ul li {
+        font-size: 12px;
+
+    }
+
+    .navbar ul li a {
+        margin: 1px;
+        padding: 2px;
+
+    }
+
+
+    .pots {
+        height: 440px;
+        padding: 25px 5px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    .pots {
+        height: 475px;
+        padding: 25px 5px;
+    }
+}
